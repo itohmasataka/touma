@@ -1,0 +1,187 @@
+body {
+    text-align: center;
+    color: #fff;
+}
+.masklargetxt {
+    color: rgba(0, 0, 0, 0);
+    background: #fff;
+    -webkit-background-clip: text;
+    font-family: 'Black Ops One', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+.masktxt {
+    color: rgba(0, 0, 0, 0);
+    background: -webkit-linear-gradient(-45deg, rgba(4,191,207,0.7), rgba(191,25,203,0.7));
+    -webkit-background-clip: text;
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: -5px;
+}
+.smalltxt {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    letter-spacing: .5px;
+}
+hr {
+    background: -webkit-linear-gradient(-45deg, rgba(4,191,207,0.7), rgba(191,25,203,0.7));
+    border: none;
+    height: 3px;
+    transition: 2s;
+    margin-bottom: 40px;
+}
+#services {
+    background-image: url(services.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#services-gradient {
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(45deg, rgba(4,191,207,0.6), rgba(191,25,203,0.6));
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+#services-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#services-inner h1 {
+    margin: 0 auto 20px;
+}
+#services-inner p {
+    font-weight: 100;
+    font-size: 17px;
+    margin: 0 auto 40px;
+    background-color: rgba(0, 0, 0, .2);
+    font-style: italic;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0 3px;
+}
+.service {
+    margin: 60px auto 60px;
+    padding: 0 30px;
+}
+.service p {
+    font-size: 13px;
+    line-height: 30px;
+    color: #555;
+    letter-spacing: 1px;
+}
+
+
+#contact {
+    background-image: url(contact.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#contact-gradient {
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(45deg, rgba(4,191,207,0.6), rgba(191,25,203,0.6));
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+#contact-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#contact-inner h1 {
+    margin: 0 auto 20px;
+}
+#contact-inner p {
+    font-weight: 100;
+    font-size: 12px;
+    margin: 0 auto 40px;
+
+}
+#contact-inner #border {
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#contact-inner #border:hover {
+    text-decoration: none;
+    opacity: .6;
+}
+#contact-fab {
+    margin-top: 30px;
+}
+.fab {
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    width: 45px;
+    height: 45px;
+    margin: 20px 20px 0;
+}
+small{
+    font-size: 20px;
+    font-weight: 200;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (min-width: 320px) {
+    
+}
+@media screen and (min-width: 1100px) {
+    .masklargetxt {
+        font-size: 60px;
+    }
+    .service p {
+        font-size: 15px;
+    }
+}
