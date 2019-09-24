@@ -362,9 +362,6 @@ small{
 
 
 @media screen and (min-width: 481px) {
-    #main-inner h1 {
-       font-size: 80px;
-   }
     #main-inner p {
         font-size: 19px;
     }
