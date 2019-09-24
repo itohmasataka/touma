@@ -1,0 +1,372 @@
+body {
+    color: #fff;
+    text-align: center;
+}
+.masklargetxt {
+    color: rgba(0, 0, 0, 0);
+    background: #fff;
+    -webkit-background-clip: text;
+    font-family: 'Black Ops One', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+
+/* header */
+
+#main {
+    background-image: url(img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#main-gradient {
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(45deg, rgba(4,191,207,0.6), rgba(191,25,203,0.6));
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+
+
+#main {
+    color: #fff;
+}
+#main-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#main-inner h1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: 'Ethna';
+}
+#main-inner p {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    font-family: 'Anders';
+}
+
+
+/* about */
+
+#about {
+    background-image: url(img/about.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#about-gradient {
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(45deg, rgba(4,191,207,0.6), rgba(191,25,203,0.6));
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+#about-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#about-inner h1 {
+    margin: 0 auto 20px;
+    font-size:40px;
+    font-weight: 300;
+}
+#about-inner p {
+    font-weight: 100;
+    font-size: 15px;
+    margin: 0 auto 40px;
+    transition: 1s;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+#about-inner a {
+color: #fff;
+font-size: 20px;
+border: 1px solid #fff;
+border-radius: 10px;
+padding: 10px 20px;
+}
+#about-inner a:hover {
+    text-decoration: none;
+    opacity: .6;
+}
+
+
+/* services */
+
+#services {
+    background-image: url(img/services.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#services-gradient {
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(45deg, rgba(4,191,207,0.6), rgba(191,25,203,0.6));
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+#services-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#services-inner h1 {
+    margin: 0 auto 20px;
+    font-size:40px;
+    font-weight: 300;
+}
+
+#services-inner p {
+    font-weight: 100;
+    font-size: 15px;
+    margin: 0 auto 40px;
+    transition: 1s;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+#services-inner a {
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#services-inner a:hover {
+    text-decoration: none;
+    opacity: .6;
+}
+
+
+/* works */
+
+#works {
+    background-image: url(img/works.jpg);
+    background-size: cover;    
+    background-position: center;
+    position: relative;
+}
+#works-gradient {
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(45deg, rgba(4,191,207,0.6), rgba(191,25,203,0.6));
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+#works-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#works-inner h1 {
+    margin: 0 auto 20px;
+    font-size:40px;
+    font-weight: 300;
+}
+#works-inner p {
+    font-weight: 100;
+    font-size: 15px;
+    margin: 0 auto 40px;
+    transition: 1s;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+#works-inner a {
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#works-inner a:hover {
+    text-decoration: none;
+    opacity: .6;
+}
+
+
+/* contact */
+
+#contact {
+    background-image: url(img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#contact-gradient {
+    height: 100vh;
+    width: 100vw;
+
+    background: linear-gradient(45deg, rgba(4,191,207,0.6), rgba(191,25,203,0.6));
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+#contact-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#contact-inner h1 {
+    margin: 0 auto 20px;
+    font-size:40px;
+    font-weight: 300;
+}
+#contact-inner p {
+    font-weight: 100;
+    font-size: 15px;
+    margin: 0 auto 40px;
+    transition: 1s;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+#contact-inner #border {
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#contact-inner #border:hover {
+    text-decoration: none;
+    opacity: .6;
+}
+#contact-fab {
+    margin-top: 30px;
+}
+.fab {
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    width: 45px;
+    height: 45px;
+    margin: 20px 20px 0;
+}
+small{
+    font-size: 20px;
+    font-weight: 200;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+@media screen and (min-width: 320px) {
+    #main-inner p {
+        font-size: 19px;
+    }
+}
+@media screen and (min-width: 1100px) {
+   #main-inner h1 {
+       font-size: 90px;
+   }
+}
